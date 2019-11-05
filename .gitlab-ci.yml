@@ -3,7 +3,8 @@ stages:
 
 build:
   image: docker:latest
-  tags: isc
+  tags: 
+    - isc
   variables:
     DOCKER_DRIVER: overlay2
     DOCKER_TLS_CERTDIR: ""
