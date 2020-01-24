@@ -1,22 +1,18 @@
 stages:
-  - build
-
-build:
-  image: docker:latest
-  tags: 
-    - isc
-  variables:
-    DOCKER_DRIVER: overlay2
-    DOCKER_TLS_CERTDIR: ""
-    # DOCKER_HOST: tcp://127.0.0.1:2375
-    IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
-
-  services:
-    - docker:dind
-  before_script:
-    - docker info
-  stage: build
-  script:
-    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build --pull --tag $IMAGE_TAG --tag $CI_REGISTRY_IMAGE:latest .
-    - docker push $CI_REGISTRY_IMAGE
+    - build
+    
+build-kaniko:
+    stage: build
+    only:
+      - tags
+    image:
+      name: gcr.io/kaniko-project/executor:latest
+      entrypoint: [""]
+    script:
+      - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+      - /kaniko/executor 
+        --context $CI_PROJECT_DIR 
+        --dockerfile $CI_PROJECT_DIR/Dockerfile 
+        --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
+        --destination $CI_REGISTRY_IMAGE:latest
+  

@@ -6,4 +6,4 @@ mkdocs-minify-plugin
 mkdocs-pdf-export-plugin
 mkdocs-select-files
 python-markdown-math
-WeasyPrint==48
+WeasyPrint
