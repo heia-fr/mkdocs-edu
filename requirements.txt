@@ -1,4 +1,4 @@
-markdown-include
+git+https://github.com/supcik/markdown-include
 mkdocs
 mkdocs-macros-plugin
 mkdocs-material
