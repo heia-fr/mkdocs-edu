@@ -1,4 +1,3 @@
-git+https://github.com/supcik/markdown-include
 git+https://github.com/zhaoterryy/mkdocs-pdf-export-plugin.git
 mkdocs
 mkdocs-macros-plugin
@@ -7,4 +6,5 @@ mkdocs-minify-plugin
 #mkdocs-pdf-export-plugin
 mkdocs-select-files
 python-markdown-math
+pymdown-include
 WeasyPrint
