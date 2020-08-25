@@ -1,7 +1,7 @@
 beautifulsoup4==4.9.1
 cairocffi==1.1.0
 CairoSVG==2.4.2
-cffi==1.14.1
+cffi==1.14.2
 click==7.1.2
 cssselect2==0.3.0
 defusedxml==0.6.0
@@ -11,13 +11,13 @@ htmlmin==0.1.12
 Jinja2==2.11.2
 joblib==0.16.0
 jsmin==2.2.2
-livereload==2.6.2
+livereload==2.6.3
 lunr==0.5.8
 Markdown==3.2.2
 MarkupSafe==1.1.1
 mkdocs==1.1.2
 mkdocs-macros-plugin==0.4.9
-mkdocs-material==5.5.0
+mkdocs-material==5.5.8
 mkdocs-material-extensions==1.0
 mkdocs-minify-plugin==0.3.0
 mkdocs-pdf-export-plugin==0.5.8
@@ -26,10 +26,11 @@ nltk==3.5
 Pillow==7.2.0
 pycparser==2.20
 Pygments==2.6.1
-pymdown-extensions==7.1
+pymdown-extensions==8.0
 pymdown-include==0.0.1
 Pyphen==0.9.5
 python-dateutil==2.8.1
+python-markdown-comments==1.1.0
 python-markdown-math==0.7
 PyYAML==5.3.1
 regex==2020.7.14
@@ -39,6 +40,6 @@ soupsieve==2.0.1
 termcolor==1.1.0
 tinycss2==1.0.2
 tornado==6.0.4
-tqdm==4.48.0
+tqdm==4.48.2
 WeasyPrint==51
 webencodings==0.5.1
