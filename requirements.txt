@@ -30,7 +30,6 @@ pymdown-extensions==8.0
 pymdown-include==0.0.1
 Pyphen==0.9.5
 python-dateutil==2.8.1
-python-markdown-comments==1.1.0
 python-markdown-math==0.7
 PyYAML==5.3.1
 regex==2020.7.14
@@ -43,3 +42,4 @@ tornado==6.0.4
 tqdm==4.48.2
 WeasyPrint==51
 webencodings==0.5.1
+-e git+https://github.com/ryneeverett/python-markdown-comments.git@aa82610f7823450f0c214473b57da8bcb0ff5651#egg=python-markdown-comments
