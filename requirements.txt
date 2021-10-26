@@ -12,7 +12,7 @@ Jinja2==2.11.3
 joblib==0.16.0
 jsmin==3.0.0
 livereload==2.6.3
-lunr==0.5.8
+lunr==0.6.1
 Markdown==3.2.2
 MarkupSafe==2.0.1
 mkdocs==1.2.3
