@@ -35,7 +35,7 @@ PyYAML==5.4
 regex==2021.10.23
 repackage==0.7.3
 six==1.16.0
-soupsieve==2.0.1
+soupsieve==2.2.1
 termcolor==1.1.0
 tinycss2==1.0.2
 tornado==6.0.4
