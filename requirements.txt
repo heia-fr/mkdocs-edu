@@ -32,7 +32,7 @@ Pyphen==0.9.5
 python-dateutil==2.8.2
 python-markdown-math==0.8
 PyYAML==5.4
-regex==2021.10.8
+regex==2021.10.23
 repackage==0.7.3
 six==1.15.0
 soupsieve==2.0.1
