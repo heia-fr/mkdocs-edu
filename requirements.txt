@@ -13,14 +13,14 @@ joblib==0.16.0
 jsmin==3.0.0
 livereload==2.6.3
 lunr==0.6.1
-Markdown==3.2.2
+Markdown==3.3.6
 MarkupSafe==2.0.1
 mkdocs==1.2.3
 mkdocs-macros-plugin==0.6.0
 mkdocs-material==5.5.8
-mkdocs-material-extensions==1.0
+mkdocs-material-extensions==1.0.3
 mkdocs-minify-plugin==0.5.0
-mkdocs-pdf-export-plugin==0.5.8
+mkdocs-pdf-export-plugin==0.5.10
 mkdocs-select-files==0.4.0
 nltk==3.6.5
 Pillow==8.4.0
@@ -31,7 +31,7 @@ pymdown-include==0.0.1
 Pyphen==0.9.5
 python-dateutil==2.8.2
 python-markdown-math==0.8
-PyYAML==5.4
+PyYAML==6.0
 regex==2021.10.23
 repackage==0.7.3
 six==1.16.0
