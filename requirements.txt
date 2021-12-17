@@ -8,7 +8,7 @@ defusedxml==0.7.1
 future==0.18.2
 html5lib==1.1
 htmlmin==0.1.12
-Jinja2==3.0.2
+Jinja2==3.0.3
 joblib==0.16.0
 jsmin==3.0.0
 livereload==2.6.3
