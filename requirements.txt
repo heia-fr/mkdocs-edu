@@ -8,7 +8,7 @@ defusedxml==0.7.1
 future==0.18.2
 html5lib==1.1
 htmlmin==0.1.12
-Jinja2==3.0.2
+Jinja2==3.0.3
 joblib==0.16.0
 jsmin==3.0.0
 livereload==2.6.3
@@ -38,7 +38,7 @@ six==1.16.0
 soupsieve==2.2.1
 termcolor==1.1.0
 tinycss2==1.0.2
-tornado==6.0.4
+tornado==6.1
 tqdm==4.62.3
 WeasyPrint==53.3
 webencodings==0.5.1
