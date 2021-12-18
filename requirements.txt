@@ -40,6 +40,6 @@ termcolor==1.1.0
 tinycss2==1.0.2
 tornado==6.1
 tqdm==4.62.3
-WeasyPrint==53.3
+WeasyPrint==53.4
 webencodings==0.5.1
 -e git+https://github.com/ryneeverett/python-markdown-comments.git@aa82610f7823450f0c214473b57da8bcb0ff5651#egg=python-markdown-comments
