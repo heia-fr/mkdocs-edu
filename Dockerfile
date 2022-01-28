@@ -10,6 +10,7 @@ RUN poetry export -f requirements.txt -o requirements.txt --without-hashes
 
 # Deploy : Install mkdocs
 FROM python:3.10.2 as deploy
+LABEL org.opencontainers.image.description="mkdocs builder for educational websites"
 WORKDIR /app
 RUN apt-get update && apt-get install -y \
   zip
