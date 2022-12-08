@@ -1,5 +1,5 @@
 # Builder : build "requirements.txt" from poetry files.
-FROM python:3.10.2 as builder
+FROM python:3.11.1 as builder
 WORKDIR /app
 
 RUN pip install poetry
@@ -9,7 +9,7 @@ COPY poetry.lock .
 RUN poetry export -f requirements.txt -o requirements.txt --without-hashes
 
 # Deploy : Install mkdocs
-FROM python:3.10.2 as deploy
+FROM python:3.11.1 as deploy
 LABEL org.opencontainers.image.description="mkdocs builder for educational websites"
 WORKDIR /app
 RUN apt-get update && apt-get install -y \
